@@ -1,10 +1,4 @@
-**Path:** `gradlew` (root level — no extension)
-```bash
 #!/bin/sh
-
-# ----------------------------------------------------------------------------
-# Gradle start up script for UN*X
-# ----------------------------------------------------------------------------
 
 # Attempt to set APP_HOME
 PRG="$0"
@@ -25,6 +19,3 @@ cd "$SAVED" >/dev/null
 DEFAULT_JVM_OPTS=""
 
 exec "$APP_HOME/gradle/wrapper/gradle-wrapper.jar" "$@"
-```
-
----
