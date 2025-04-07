@@ -18,4 +18,4 @@ cd "$SAVED" >/dev/null
 
 DEFAULT_JVM_OPTS=""
 
-exec "$APP_HOME/gradle/wrapper/gradle-wrapper.jar" "$@"
+exec java -jar "$APP_HOME/gradle/wrapper/gradle-wrapper.jar" "$@"
